@@ -1,0 +1,5 @@
+docker run --name jwt_security_container -e POSTGRES_PASSWORD=12345678 -p 5432:5432 -d postgres
+
+docker run --name jwt_security_container -e POSTGRES_PASSWORD=12345678 -p 1111:5432 -d postgres
+
+docker run --name book-shop -p 5555:3306 -e MYSQL_ROOT_PASSWORD=12345678 -d mysql
